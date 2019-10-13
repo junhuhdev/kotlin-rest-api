@@ -1,11 +1,14 @@
 package com.huh.enterprises.hitmachine
 
+import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class HitmachineApplication
+class Application
 
 fun main(args: Array<String>) {
-	runApplication<HitmachineApplication>(*args)
+    runApplication<Application>(*args) {
+        setBannerMode(Banner.Mode.OFF)
+    }
 }

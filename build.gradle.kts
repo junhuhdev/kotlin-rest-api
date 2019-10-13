@@ -19,7 +19,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    compile(group = "org.springframework", name = "spring-web")
+    compile(group = "org.springframework.boot", name = "spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
